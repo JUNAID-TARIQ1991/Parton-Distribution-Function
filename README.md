@@ -1,4 +1,5 @@
-# ROOT 
+# ploting PDF
+
 You can plot any parton distribution function as a function of x(momentum shared fraction) vs xfx 0r Q^{2}. you just nedd to run the lhapdf.cc by giving two arguments. i.e. 
 g++ lhapdf.cc -o myexe `lhapdf-config --cflags --ldflags`
 ./myexe (PDF name) (pdfmember)
